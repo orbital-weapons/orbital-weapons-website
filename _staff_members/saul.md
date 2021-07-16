@@ -1,6 +1,6 @@
 ---
 name: Saul Solper
-position: CTO
+position: Chief Technology Officer
 image_path: "/images/team/saul.jpg"
 twitter: 
 ---
