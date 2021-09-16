@@ -1,0 +1,16 @@
+---
+title: 2FA
+heading: Two-Factor Authentication
+subtitle: Please confirm your one-time login code
+---
+<section class="diagonal">
+	<div class="container">
+		<form action="{{ site.baseurl }}/login-success/" method="get" class="contact-form">
+	
+			<label for="name">Enter your Google Authenticator code:</label>
+			<input type="text" name="2fa" id="2fa" placeholder="12345678" required />
+			</br>
+			<input type="submit" value="Login" />
+		</form>
+	</div>
+</section>
