@@ -1,17 +1,17 @@
 ---
 title: Login
-heading: Access internal Orbital Weapons resources
-subtitle: This website is the property of Orbital Weapons. It is for authorized use only. By using this system, all users acknowledge notice of, and agree to comply with, the Acceptable Use of Information Technology Resources Policy (“AUP”)
+heading: Login
+subtitle: Restricted Access - Highly Confidential
 ---
 <section class="diagonal">
 	<div class="container">
 		<form action="{{ site.baseurl }}/login-success/" method="post" class="contact-form">
-
+			<p>This website is the property of Orbital Weapons. It is for authorized use only. By using this system, all users acknowledge notice of, and agree to comply with, the Acceptable Use of Information Technology Resources Policy (“AUP”)</p>
 			<label for="name">Username</label>
 			<input type="text" name="username" id="username" placeholder="example@orbitalweapons.com" required />
 
 			<label for="email">Password</label>
-			<input type="password" name="password" id="password" placeholder="Password" required />
+			<input type="password" name="password" id="password" placeholder="Please Enter Your Password" required />
 
 			<input type="submit" value="Login" />
 		</form>
