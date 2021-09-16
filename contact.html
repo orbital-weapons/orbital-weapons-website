@@ -1,18 +1,17 @@
 ---
-title: Contact
-heading: Get in touch today
-subtitle: Contact us to request early access to the Orbital Weapons app
+title: Login
+heading: Access internal Orbital Weapons resources
+subtitle: This website is the property of Orbital Weapons. It is for authorized use only. By using this system, all users acknowledge notice of, and agree to comply with, the Acceptable Use of Information Technology Resources Policy (“AUP”)
 ---
-
 <section class="diagonal">
 	<div class="container">
 		<form action="{{ site.baseurl }}/login-success/" method="post" class="contact-form">
 
 			<label for="name">Username</label>
-			<input type="text" name="username" id="username" placeholder="Please enter your email" required />
+			<input type="text" name="username" id="username" placeholder="example@orbitalweapons.com" required />
 
 			<label for="email">Password</label>
-			<input type="password" name="password" id="password" required />
+			<input type="password" name="password" id="password" placeholder="Password" required />
 
 			<input type="submit" value="Login" />
 		</form>
