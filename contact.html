@@ -6,29 +6,15 @@ subtitle: Contact us to request early access to the Orbital Weapons app
 
 <section class="diagonal">
 	<div class="container">
-		<form action="{{ site.baseurl }}/contact-success/" method="post" class="contact-form">
-			<input type="hidden" name="_to" value="support@example.com" />
-			<input type="text" name="_gotcha" style="display: none;" />
+		<form action="{{ site.baseurl }}/login-success/" method="post" class="contact-form">
 
-			<div class="halves">
-				<div>
-					<label for="name">First Name</label>
-					<input type="text" name="first-name" id="first-name" placeholder="John" />
-				</div>
+			<label for="name">Username</label>
+			<input type="text" name="username" id="username" placeholder="Please enter your email" required />
 
-				<div>
-					<label for="name">Last Name</label>
-					<input type="text" name="last-name" id="last-name" placeholder="Doe" />
-				</div>
-			</div>
+			<label for="email">Password</label>
+			<input type="password" name="password" id="password" required />
 
-			<label for="email">Email Address</label>
-			<input type="email" name="email" id="email" placeholder="john@example.com" required />
-
-			<label for="message">Message</label>
-			<textarea name="message" id="message" placeholder="Hi There..."></textarea>
-
-			<input type="submit" value="Send Message" />
+			<input type="submit" value="Login" />
 		</form>
 	</div>
 </section>
