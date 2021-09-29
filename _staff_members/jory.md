@@ -1,6 +1,6 @@
 ---
 name: Jory Saltman
-position: Chief Product Officer
+position: Threat Intelligence Intern
 image_path: "/images/team/jory.jpg"
 twitter: 
 ---
