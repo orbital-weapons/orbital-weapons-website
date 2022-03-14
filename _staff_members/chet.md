@@ -1,6 +1,6 @@
 ---
 name: Chet Apichart
-position: Information Technology Engineer
+position: Chief Financial Officer
 image_path: "/images/team/chet.jpg"
 twitter: 
 ---
