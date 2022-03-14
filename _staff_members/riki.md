@@ -1,6 +1,6 @@
 ---
 name: Riki Jespersen
-position: Threat Intelligence Engineer
+position: Chief Executive Officer
 image_path: "/images/team/riki.jpg"
 twitter: 
 ---
